@@ -22,10 +22,10 @@ function App() {
   return (
     <main className="bg-dark-blue h-screen">
       <section className="container flex ">
-        <div className=" rounded-lg  bg-dark-grayish-blue justify-center content-center">
+        <div className=" rounded-lg  bg-dark-grayish-blue justify-center min-w-[65%] max-w-[75%] mx-auto p-4">
           <p> Advice # {advice.id}</p>
           <p className="text-3xl">{advice.advice}</p>
-          <div className="rounded-lg bg-neon-green"><BsFillDice5Fill />   </div>
+          <div className="bg-neon-green inline-block p-2 rounded-full hover:"><BsFillDice5Fill />   </div>
                  
         </div>
       </section>
