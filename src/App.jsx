@@ -33,8 +33,8 @@ function App() {
   return (
     <main className="bg-dark-blue h-screen flex flex-col items-center justify-between font-Manrope">
       <section className="container flex text-center items-center justify-center flex-1">
-        <div className=" rounded-lg grid gap-6  bg-dark-grayish-blue justify-items-center items-center p-8 w-3/4 sm:w-5/6 lg:w-2/6  relative">
-          <div className=' text-xs text-neon-green uppercase tracking-[0.2em] font-bold'> Advice # {advice.id}</div>
+        <div className=" rounded-lg grid gap-6  bg-dark-grayish-blue justify-items-center items-center p-8 w-3/4 sm:w-5/6 lg:w-2/6">
+          <h1 className=' text-xs text-neon-green uppercase tracking-[0.2em] font-bold'> Advice # {advice.id}</h1>
           <div className="text-[1.75rem] text-white ">"{advice.advice}"
           </div>
           <div>
@@ -44,7 +44,7 @@ function App() {
             </picture>
           </div>
 
-          <button onClick={() => clickDice(advice)} className="bg-neon-green p-4 rounded-full hover:shadow-[0px_0px_50px] hover:shadow-neon-green hover:animate-spin -mb-[15%]"> 
+          <button aria-label='refresh' onClick={() => clickDice(advice)} className="bg-neon-green p-4 rounded-full hover:shadow-[0px_0px_50px] hover:shadow-neon-green hover:animate-spin -mb-[15%]"> 
             <BsFillDice5Fill />
           </button>
         </div>
