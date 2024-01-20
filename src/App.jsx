@@ -35,12 +35,12 @@ function App() {
       <section className="container flex text-center items-center justify-center flex-1">
         <div className=" rounded-lg grid gap-6  bg-dark-grayish-blue justify-items-center items-center p-8 w-3/4 sm:w-5/6 lg:w-2/6">
           <h1 className=' text-xs text-neon-green uppercase tracking-[0.2em] font-bold'> Advice # {advice.id}</h1>
-          <div className="text-[1.75rem] text-white ">"{advice.advice}"
-          </div>
+          <p className="text-[1.75rem] text-white ">"{advice.advice}"
+          </p>
           <div>
             <picture>
               <source media="(min-width: 768px)" srcset={pattern_desktop} />
-              <img src={pattern_mobile} alt="" srcset="" />
+              <img src={pattern_mobile} alt="pattern" />
             </picture>
           </div>
 
