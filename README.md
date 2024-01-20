@@ -1,6 +1,6 @@
 # Frontend Mentor - Advice Generator
 
-[![wakatime](https://wakatime.com/badge/github/sumaiyakawsar/sk-advice-generator.svg)](https://wakatime.com/badge/github/sumaiyakawsar/sk-advice-generator)
+[![wakatime](https://wakatime.com/badge/github/sumaiyakawsar/sk-advice-generator.svg)](https://wakatime.com/badge/github/sumaiyakawsar/sk-advice-generator) ![Junior Badge](https://img.shields.io/badge/2-Junior-ffffff?style=plastic&labelColor=AAD742)
 
 <div align="center">
   <h3>
