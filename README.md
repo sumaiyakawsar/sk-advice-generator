@@ -1,4 +1,4 @@
-Frontend Mentor - Advice Generator
+# Frontend Mentor - Advice Generator
 
 [![wakatime](https://wakatime.com/badge/github/sumaiyakawsar/sk-advice-generator.svg)](https://wakatime.com/badge/github/sumaiyakawsar/sk-advice-generator)
 
@@ -12,7 +12,7 @@ Frontend Mentor - Advice Generator
       Solution
     </a>
     <span> | </span>
-    <a href="https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3">
+    <a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db">
       Challenge
     </a>
   </h3>
